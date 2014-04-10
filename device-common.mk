@@ -291,3 +291,4 @@ PRODUCT_COPY_FILES += \
 
 $(call inherit-product, frameworks/native/build/tablet-7in-xhdpi-2048-dalvik-heap.mk)
 $(call inherit-product, hardware/qcom/msm8960/msm8960.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/telephony.mk)
